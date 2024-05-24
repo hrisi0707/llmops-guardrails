@@ -6,7 +6,7 @@ from streamlit_feedback import streamlit_feedback
 from rag_chain import get_expression_chain
 from langchain_core.tracers.context import collect_runs
 from langchain_pinecone import PineconeVectorStore
-from langchain_openai import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings, AzureOpenAIEmbeddings
 from scripts.guards import prompt_scanner,response_scanner
 from scripts import hallucination
 import pandas as pd
